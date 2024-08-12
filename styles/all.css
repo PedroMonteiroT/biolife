@@ -1,0 +1,30 @@
+:root{
+    --cianoescuro: #00C2CB;
+    --cianoclaro: #A0E0DF;
+    --cinzaclaro: #DFE3E5;
+    --cinzaescuro: #70706F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Questrial"; 
+    scrollbar-width: auto;
+    scrollbar-color: var(--cianoclaro) var(--cianoescuro); 
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    min-width: 100%;
+    height: 100vh;
+}
+
+@media(max-width: 770px){
+    body{
+        width: 96%
+    }
+}
+
+
+
